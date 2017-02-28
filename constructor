@@ -1,0 +1,24 @@
+class roopa
+{
+private:
+        char name[50];
+        int usn;
+public:
+        void read()
+        {
+          cout<<"enter name and usn";
+          cin>>name>>usn;
+        }
+        void display()
+        {
+         cout<<name<<usn;
+        }
+};
+void main()
+{
+ student s[10];
+ for(int i=0;i<10;i++)
+ s[i].read();
+ for(int i=0;i<10;i++)
+ s[i].display();
+}
